@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <title>Parallax using tailwind css</title>
+</head>
+
+<body>
+    <div class="parallax-container h-screen w-screen overflow-x-hidden overflow-y-auto">
+        <header class="relative flex items-center justify-center h-full w-full -z-10 header">
+            <img src="/media/Mountain.png" alt="background mountains"
+                class="background absolute h-full w-full object-cover -z-1" />
+            <img src="/media/Trees.png" alt="foreground trees"
+                class="foreground absolute w-full h-full object-cover -z-1" />
+            <h1 class="text-7xl text-pink-900 [text-shadow:0_0_7px_white]">Parallax using TailwindCSS</h1>
+        </header>
+        <section class="bg-slate-700 z-10 text-white px-20 py-40">
+            <h1 class="text-8xl">Heading</h1>
+            <p class="text-4xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit deleniti accusamus
+                molestiae sequi qui
+                placeat animi provident aliquam dolorem quidem?</p>
+            <p class="text-4xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, necessitatibus
+                numquam! Vero
+                corrupti cumque unde quasi aliquam hic repellendus! Blanditiis sapiente illum ea accusantium ab, dolore
+                laudantium doloremque, molestias tempora dolorem cum aliquid architecto accusamus? Illum odio
+                exercitationem numquam, natus saepe, quae libero, magni laborum id nobis non fugit expedita?</p>
+        </section>
+    </div>
+</body>
+
+</html>
